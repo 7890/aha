@@ -12,7 +12,7 @@ MD=mkdir
 BINMODE?=0755
 MANMODE?=644
 
-CFLAGS += -std=c99 -Wall -Wextra
+CFLAGS += -std=c99 -Wall -Wextra -Wno-pragmas -g -O3
 
 all: aha
 
